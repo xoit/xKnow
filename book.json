@@ -8,6 +8,11 @@
     },
     "plugins": [
         "-sharing",
+        "-theme-faq",
+        "-theme-dianwoba",
+        "-theme-cornerstone",
+        "theme-appcom",
+        "fontsettings",
         "-autocover",
         "-pdf-styling",
         "custom-favicon",
