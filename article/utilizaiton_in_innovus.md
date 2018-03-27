@@ -136,25 +136,25 @@ Note: The text report from reportDensityMap is only useful for reporting the num
 **summaryReport**
 summaryReport provides a detailed breakdown of the density.
 
-==============================
-Floorplan/Placement Information
-==============================
-Total area of Standard cells: 119.700 um^2
-Total area of Standard cells(Subtracting Physical Cells): 119.700 um^2
-Total area of Macros: 0.000 um^2
-Total area of Blockages: 0.000 um^2
-Total area of Pad cells: 0.000 um^2
-Total area of Core: 240.768 um^2
-Total area of Chip: 240.768 um^2
-Effective Utilization: 4.9716e-01
-Number of Cell Rows: 8
-% Pure Gate Density #1 (Subtracting BLOCKAGES): 49.716%
-% Pure Gate Density #2 (Subtracting BLOCKAGES and Physical Cells): 49.716%
-% Pure Gate Density #3 (Subtracting MACROS): 49.716%
-% Pure Gate Density #4 (Subtracting MACROS and Physical Cells): 49.716%
-% Pure Gate Density #5 (Subtracting MACROS and BLOCKAGES): 49.716%
-% Pure Gate Density #6 ((Unpreplaced Standard Inst + Unpreplaced Block Inst + Unpreplaced Black Blob Inst + Fixed Clock Inst Area) / (Free Site Area + Fixed Clock Inst Area) for insts are placed): 49.716%
-% Core Density (Counting Std Cells and MACROs): 49.716%
-% Core Density #2(Subtracting Physical Cells): 49.716%
-% Chip Density (Counting Std Cells and MACROs and IOs): 49.716%
-% Chip Density #2(Subtracting Physical Cells): 49.716%
+    ==============================
+    Floorplan/Placement Information
+    ==============================
+    Total area of Standard cells: 119.700 um^2
+    Total area of Standard cells(Subtracting Physical Cells): 119.700 um^2
+    Total area of Macros: 0.000 um^2
+    Total area of Blockages: 0.000 um^2
+    Total area of Pad cells: 0.000 um^2
+    Total area of Core: 240.768 um^2
+    Total area of Chip: 240.768 um^2
+    Effective Utilization: 4.9716e-01
+    Number of Cell Rows: 8
+    % Pure Gate Density #1 (Subtracting BLOCKAGES): 49.716%
+    % Pure Gate Density #2 (Subtracting BLOCKAGES and Physical Cells): 49.716%
+    % Pure Gate Density #3 (Subtracting MACROS): 49.716%
+    % Pure Gate Density #4 (Subtracting MACROS and Physical Cells): 49.716%
+    % Pure Gate Density #5 (Subtracting MACROS and BLOCKAGES): 49.716%
+    % Pure Gate Density #6 ((Unpreplaced Standard Inst + Unpreplaced Block Inst + Unpreplaced Black Blob Inst + Fixed Clock Inst Area) / (Free Site Area + Fixed Clock Inst Area) for insts are placed): 49.716%
+    % Core Density (Counting Std Cells and MACROs): 49.716%
+    % Core Density #2(Subtracting Physical Cells): 49.716%
+    % Chip Density (Counting Std Cells and MACROs and IOs): 49.716%
+    % Chip Density #2(Subtracting Physical Cells): 49.716%
