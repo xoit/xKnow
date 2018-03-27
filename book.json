@@ -1,0 +1,70 @@
+{
+    "title": "mFlow Session Develop Notes",
+    "author": "Lifeng Li",
+    "root": ".",
+    "styles": {
+        "website": "./res/website.css",
+        "pdf": "./res/pdf.css"
+    },
+    "plugins": [
+        "-sharing",
+        "-autocover",
+        "-pdf-styling",
+        "custom-favicon",
+        "signature",
+        "expandable-chapters-small",
+        "navigator",
+        "youtubex",
+        "sectionx",
+        "mcqx",
+        "fbqx",
+        "ace",
+        "spoiler",
+        "flowchart",
+        "layout",
+        "-local-video",
+        "markdown-video",
+        "-mermaid",
+        "image-captions",
+        "regexplace"
+    ],
+    "pluginsConfig": {
+        "link-fixer": {
+            "link": "http://cot.marvell.com/"
+        },
+        "flowchart": {
+            "line-color": "red"
+        },
+        "favicon": "./res/chip_cot.ico",
+        "layout": {
+            "headerPath": "./res/header.html",
+            "footerPath": "./res/footer.html"
+        },
+        "image-captions": {
+            "caption": "_PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_"
+        },
+        "expandable-chapters-small": {
+
+        },
+        "gitbook-plugin-signature": {
+            "autoTimeStamp": {
+                "color": "gray",
+                "timeStampFormat": "MM/DD/YYYY HH:mm:ss"
+            },
+            "autoCopyright": {
+                "color": "gray",
+                "owner": "<a href='http://cot.marvell.com' target='_blank'>COT Marvell</a>",
+                "center": true
+            },
+            "signature": {
+                "cot": "Provide by COT Marvell"
+            }
+        },
+        "regexplace": {
+            "substitutes": [
+                { "pattern": "<!-- bookurl -->", "flags": "g", "substitute": "http:\/\/pddm.marvell.com:8080\/dev\/lfli\/doc\/mflow\/mdoc\/" },
+                { "pattern": "<!-- repourl -->", "flags": "g", "substitute": "http:\/\/docpd:3000/mflow/mPackages/" }
+            ]
+        }
+    }
+}
